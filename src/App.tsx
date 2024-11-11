@@ -11,32 +11,46 @@ import img8 from './assets/img8.png';
 
 function App() {
   return (
-    <Carousel slide={false} variant="dark">
-      <Carousel.Item>
-        <img src={img1} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img2} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img3} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img4} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img5} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img6} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img7} alt="Logo" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img8} alt="Logo" />
-      </Carousel.Item>
-    </Carousel>
+    <>
+      <Carousel slide={false} variant="dark">
+        <Carousel.Item>
+          <img src={img1} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img2} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img3} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img4} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img5} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img6} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img7} alt="Logo" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={img8} alt="Logo" />
+        </Carousel.Item>
+      </Carousel>
+      <div>
+        <p>
+          Developed By{' '}
+          <a href="https://www.linkedin.com/in/sartoridev/" target="_blank" rel="noopener noreferrer">
+            Rodrigo Sartori
+          </a>{' '}
+          <br></br>Visit my Github 😉 {'->'}{' '}
+          <a href="https://github.com/sartori00" target="_blank" rel="noopener noreferrer">
+            sartori00
+          </a>
+        </p>
+      </div>
+    </>
   );
 }
 
