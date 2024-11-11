@@ -11,7 +11,7 @@ import img8 from './assets/img8.png';
 
 function App() {
   return (
-    <Carousel fade variant="dark">
+    <Carousel slide={false} variant="dark">
       <Carousel.Item>
         <img src={img1} alt="Logo" />
       </Carousel.Item>
