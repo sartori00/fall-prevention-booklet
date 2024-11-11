@@ -39,7 +39,7 @@ function App() {
         </Carousel.Item>
       </Carousel>
       <div>
-        <p>
+        <p className="small-text">
           Developed By{' '}
           <a href="https://www.linkedin.com/in/sartoridev/" target="_blank" rel="noopener noreferrer">
             Rodrigo Sartori
